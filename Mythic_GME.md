@@ -4,7 +4,11 @@ _Three d10:_ `dice: 1d10` / `dice: 1d10` / `dice: 1d10`
 [[Mythic_GME#Fate Check|Fate Check]] ***(2d10+1d10)*** `dice: 2d10 + 1d10`
 [[Mythic_GME#Scene Setup|Scene Setup roll]] ***(1d10)*** `dice: 1d10`
 [[Mythic_GME#Detail Check|Detail Check]] ***(2d10)*** `dice: [[Mythic_GME#^DetailCheck]]`
-[[Mythic_GME#Event Check|Event Check]] `dice: [[Mythic_GME#^EventCheck]]`
+[[Mythic_GME#Event Check|Event Check]] ***(1d100)*** `dice: [[Mythic_GME#^EventCheck]]`
+[[Mythic_GME#Behavior Check|Behavior Check]]
+*Npc Action Table 1:* `dice: [[Mythic_GME#^NpcTable1]]`
+*Npc Action Table 2:* `dice: [[Mythic_GME#^NpcTable2]]`
+
 [[Mythic_GME#Standard Focus Table|Standard Focus]] `dice: [[Mythic_GME#^EFStandard]]`
 _Action1:_ `dice: [[Mythic_GME#^MVerb]]` (of)
 _Action2:_ `dice: [[Mythic_GME#^MSubject]]`
@@ -46,9 +50,14 @@ When chaos die is within the CF and fate dice are…
 … the same: *Exceptional and Random Event*
 
 ### Detail Check
+**Modifiers**  
+_Cf 3:_ +2  
+_Cf 4-5:_ 0  
+_Cf 6:_ -2
+##### Detail Check Table
 | dice: 2d10 | Result              |
 | ---------- | ------------------- |
-| -4         | Anger               |
+| 1-4         | Anger               |
 | 5          | Sadness             |
 | 6          | Fear                |
 | 7          | Disfavors Thread    |
@@ -66,12 +75,8 @@ When chaos die is within the CF and fate dice are…
  
 ^DetailCheck
 
-**Modifiers**  
-_Cf 3:_ +2  
-_Cf 4-5:_ 0  
-_Cf 6:_ -2
-
 ### Event Check
+##### Event Check Table
 | dice: 1d100 | Result           |
 | ---------- | ---------------- |
 | 1-7        | Anger            |
@@ -87,6 +92,45 @@ _Cf 6:_ -2
 | 93-100         | Favors Pc        |
 
 ^EventCheck
+
+### Behavior Check
+
+Disposition Table 
+| dice: 1d10 | Result              |
+| ---------- | ------------------- |
+| -5    | PASSIVE (-2): The Character takes the softest approach to their Actions.               |
+| 6-10        | MODERATE (0): The Character acts in a moderate fashion, not too intense, not too passive.             |
+| 11-15        | ACTIVE (+2): The Character wants to make their Actions known.                |
+| 16+         | AGGRESSIVE (+4): The Character acts with the utmost urgency and intensity.     |
+
+#### Npc Action tables
+
+| dice: 1d10 | Result           |
+| ---------- | ---------------- |
+| 1-3        | Theme Action     |
+| 4-5        | Npc Continues    |
+| 6          | Npc Continues +2 |
+| 7          | Npc Continues -2 |
+| 8          | Npc Action       |
+| 9          | Npc Action -4    |
+| 10         | Npc Action +4    |
+
+^NpcTable1
+
+| dice: 2d10 | Result              |
+| ---------- | ------------------- |
+| 1-6        | Talks, Exposition               |
+| 7-8          | Preforms an Ambiguous Action  |
+| 9-10        | Acts out of Pc Intrest    |
+| 11          | Gives Something    |
+| 12          | Seeks to end the Encounter |
+| 13         | Changes the Theme           |
+| 14         | Changes Descriptor          |
+| 15-17         | Acts out of Self Interest            |
+| 18         | Takes something       |
+| 19+         | Causes Harm      |
+
+^NpcTable2
 
 ### Event Focus Tables
 ##### Standard Focus Table
