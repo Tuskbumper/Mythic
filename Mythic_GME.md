@@ -4,8 +4,7 @@ _Three d10:_ `dice: 1d10` / `dice: 1d10` / `dice: 1d10`
 [[Mythic_GME#Fate Check|Fate Check]] ***(2d10+1d10)*** `dice: 2d10 + 1d10`
 [[Mythic_GME#Scene Setup|Scene Setup roll]] ***(1d10)*** `dice: 1d10`
 [[Mythic_GME#Detail Check|Detail Check]] ***(2d10)*** `dice: [[Mythic_GME#^DetailCheck]]`
-`dice: 
-[[Mythic_GME#Event Check|Event Check]] `dice:[[Mythic_GME#^EventCheck]]`
+[[Mythic_GME#Event Check|Event Check]] `dice: [[Mythic_GME#^EventCheck]]`
 [[Mythic_GME#Standard Focus Table|Standard Focus]] `dice: [[Mythic_GME#^EFStandard]]`
 _Action1:_ `dice: [[Mythic_GME#^MVerb]]` (of)
 _Action2:_ `dice: [[Mythic_GME#^MSubject]]`
