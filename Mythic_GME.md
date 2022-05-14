@@ -5,7 +5,17 @@ _Three d10:_ `dice: 1d10` / `dice: 1d10` / `dice: 1d10`
 [[Mythic_GME#Scene Setup|Scene Setup roll]] ***(1d10)*** `dice: 1d10`
 [[Mythic_GME#Detail Check|Detail Check]] ***(2d10)*** `dice: [[Mythic_GME#^DetailCheck]]`
 [[Mythic_GME#Event Check|Event Check]] ***(1d100)*** `dice: [[Mythic_GME#^EventCheck]]`
+
 [[Mythic_GME#Behavior Check|Behavior Check]]
+*Identity examples:* Police officer, super villain, warrior 
+*When not obvious:* Stranger, unknown man, etc
+_Personality1:_ `dice: [[Mythic_GME#^MAdverb]]`
+_Personality2:_ `dice: [[Mythic_GME#^MAdjective]]`
+_Activity1:_ `dice: [[Mythic_GME#^MVerb]]`
+_Activity2:_ `dice: [[Mythic_GME#^MSubject]]`
+
+*See Dispostion chart and adjustments*
+
 *Npc Action Table 1:* `dice: [[Mythic_GME#^NpcTable1]]`
 *Npc Action Table 2:* `dice: [[Mythic_GME#^NpcTable2]]`
 
@@ -94,14 +104,22 @@ _Cf 6:_ -2
 ^EventCheck
 
 ### Behavior Check
+Description Meaning Tables - Personality
+Action Meaning Tables - Activity
+
+**Dispostion adjustments**
++2 | adjustment if Descriptor would encourage a more intense Disposition
+0   | adjustment if the Descriptor has no bearing on the situation
+-2  | adjustment if the Descriptor would lower the intensity of their behavior
 
 Disposition Table 
-| dice: 1d10 | Result              |
+| dice: 2d10 | Result              |
 | ---------- | ------------------- |
 | -5    | PASSIVE (-2): The Character takes the softest approach to their Actions.               |
 | 6-10        | MODERATE (0): The Character acts in a moderate fashion, not too intense, not too passive.             |
 | 11-15        | ACTIVE (+2): The Character wants to make their Actions known.                |
 | 16+         | AGGRESSIVE (+4): The Character acts with the utmost urgency and intensity.     |
+^/unplugged
 
 #### Npc Action tables
 
